@@ -1,0 +1,8 @@
+applications:
+- name: pws-spring-boot-demo
+  path: ./target/pws-demo-1.0.jar
+  random-route: true
+  memory: 768M
+  instances: 1
+  buildpacks:
+  - java_buildpack
